@@ -1,0 +1,83 @@
+/* General Formatting
+*/
+body {
+	background-image: linear-gradient(grey, white, grey);
+}
+header {
+	background-image: linear-gradient(to bottom, red, maroon 120%); 
+	height: 100px;	
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	padding: -8px;
+	margin: -8px;
+}
+h1{
+	color: white;
+	font-size: 400%;
+	font-weight: bold;
+	font-family: "Georgia", serif;
+	margin: 10px;
+	margin-left: 20px;
+	text-shadow: 5px 3px 3px maroon;
+}
+footer {
+	background-image: linear-gradient(to bottom, maroon, red 120%); 
+	height: 100px;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	padding: -8px;
+	margin: -8px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+img.topLogo {
+	position: absolute;
+	top: 19;
+	right: 34;
+	border-radius: 5px;
+	margin-left: 65%;
+	margin-bottom: 5px;
+	filter: grayscale(100%);
+	padding: 5px;
+}
+
+/*Login Page Layout
+*/
+#submit {
+	width = 400px;
+}
+h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+form.log {
+	margin: 10px 50px;
+	width: 400px;
+}
+label {
+	margin-bottom: 10px;
+}
+#username, #password {
+	text-align: left;
+	width: 200px;
+	margin-bottom: 20px;
+	font-size: 100%;
+}
+
+input[submit] {
+	display: block;
+	text-align: center;
+	width: 100px;
+}
+main {
+	background: white;
+	border: 2px solid black;
+	border-radius: 25px;
+	box-shadow: 5px 5px 3px black;
+	width: 300px;
+	height: 300px;
+	margin-left: 40%;
+	margin-top: 100px;;
+
+}

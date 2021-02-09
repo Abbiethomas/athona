@@ -1,0 +1,150 @@
+/* General formatting
+*/
+body {
+	background-image: linear-gradient(grey, white, grey);
+}
+header {
+	background-image: linear-gradient(to bottom, red, maroon 120%); 
+	height: 100px;	
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	padding: -8px;
+	margin: -8px;
+}
+h1{
+	color: white;
+	font-size: 400%;
+	font-weight: bold;
+	font-family: "Georgia", serif;
+	margin: 10px;
+	margin-left: 20px;
+	text-shadow: 5px 3px 3px maroon;
+}
+h2{
+	text-decoration: underline;
+}
+footer {
+	clear:both;
+	background-image: linear-gradient(to bottom, maroon, red 120%); 
+	height: 100px;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	padding: -8px;
+	margin: -8px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+img.topLogo {
+	position: absolute;
+	top: 19;
+	right: 34;
+	border-radius: 5px;
+	margin-left: 65%;
+	margin-bottom: 5px;
+	filter: grayscale(100%);
+	padding: 5px;
+}
+
+/* Teacher Page Layout
+*/
+aside {
+	width: 19%;
+	height: 150px;
+	float: left;
+	border: 2px solid black;
+	border-radius: 25px;
+	box-shadow: 5px 5px 3px black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	background: white;
+}
+main {
+	width: 75%;
+	float: right;
+	border: 2px solid black;
+	border-radius: 25px;
+	box-shadow: 5px 5px 3px black;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	background: white;
+}
+#info {
+	margin: 5px;
+}
+/* Table formatting
+*/
+table {
+	width: 100%;
+}
+th, td {
+	vertical-align: middle;
+	margin: 5px 20px;
+	padding-left: 10px;
+}
+#top {
+	font-weight: bold;
+	font-size: 110%;
+	padding-left: 10px;
+}
+tr:nth-child(even) {
+	background: lightgrey;
+}
+
+form {
+	text-align: center;
+	margin: 20px;
+}
+
+#button {
+	width: 70px;
+}
+
+
+/* Class Description Hover function
+*/
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+	visibility: hidden;
+	width: 500px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -60px;
+	opacity: 0;
+	transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+	content: "";
+	position: relative;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+  }
+
